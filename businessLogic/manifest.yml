@@ -1,0 +1,6 @@
+---
+applications:
+- name: businessLogic
+  memory: 512M
+  host: businessLogic
+  domain: mybluemix.net
