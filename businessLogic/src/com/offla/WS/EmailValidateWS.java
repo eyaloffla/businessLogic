@@ -26,7 +26,7 @@ public class EmailValidateWS {
 		
 		String isValid = Util.BOOLEAN_FALSE;
 		
-		if(emailValidate.isEmailValid()){
+		if(emailValidate.isEmailValid(email)){
 			isValid = Util.BOOLEAN_TRUE;	
 		}
 	

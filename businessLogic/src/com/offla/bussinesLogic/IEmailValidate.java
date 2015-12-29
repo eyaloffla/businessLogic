@@ -5,6 +5,6 @@ import javax.ejb.Local;
 @Local
 public interface IEmailValidate {
 	
-	public boolean isEmailValid();
+	public boolean isEmailValid(String email);
 
 }
